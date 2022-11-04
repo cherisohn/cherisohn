@@ -2,7 +2,7 @@
 - 👀 I’m interested in growing as a programmer who has no degree in CS! 
 - 🌱 I’m currently learning javascript
 - ✅ My goal is to upload 1 commit a day :)
-- 💞️ I’m looking to collaborate on projects with fellow learners since I'm teaching myself, I'd love to meet others who are in the same position as myself
+- 💞️ I’m looking to collaborate on projects with fellow learners since I'm teaching myself, I'd love to meet others who are in the same learning environment as myself
 - 📫 How to reach me: chaeheesohn@gmail.com
 
 <!---
