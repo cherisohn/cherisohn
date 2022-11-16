@@ -23,8 +23,8 @@ window.addEventListener("load", () => {
 
   // js로 선택된 태그의 높이를 설정
   function init() {
-    h = window.innerHeight; // 현재 창의 높이값 설정
-    targetY = n * h;
+    // h = window.innerHeight; // 현재 창의 높이값 설정
+    targetY = n * 1000;
     navLi[n].classList.add("active");
     for (let j = 0; j < pageList.length; j++) {
       pageList[j].style.height = h + "px";
