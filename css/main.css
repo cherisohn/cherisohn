@@ -22,22 +22,47 @@
   height: 60px;
   margin-top: 30px;
 }
-#main .nav {
+#main .nav1 {
   float: right;
   width: 600px;
   height: 100px;
 }
-#main .nav li {
+#main .nav1 li {
   float: left;
   margin: 40px 50px 0 50px;
 }
-#main .nav li:last-child {
+#main .nav1 li:last-child {
   margin-right: 0;
 }
-#main .nav li a {
+#main .nav1 li.active a {
+  color: #c21818;
+}
+#main .nav1 li a {
   color: #fff;
   font-weight: 900;
   font-size: 18px;
+}
+#main .nav2 {
+  z-index: 9999;
+  width: 100px;
+  height: 190px;
+  border-radius: 15px;
+  position: fixed;
+  top: 380px;
+  right: 40px;
+  background-color: rgb(219, 113, 113);
+  opacity: 0.7;
+}
+#main .nav2 li {
+  margin: 20px 0 0 20px;
+}
+#main .nav2 li.active2 a {
+  color: red;
+  font-weight: 900;
+}
+#main .nav2 li a {
+  color: #fff;
+  text-align: center;
 }
 #main .intro {
   position: relative;
@@ -67,9 +92,7 @@
 #profile {
   width: 100%;
   height: 100vh;
-  /* background-color: #fff; */
   background-color: #c1f5ac;
-  /* background-color: #ffd96a; */
 }
 #profile .profile_in {
   margin: 0 auto;
@@ -85,7 +108,6 @@
   height: 60px;
   margin-top: 30px;
 }
-
 #profile .slogan {
   margin: 0 auto;
   width: 500px;
@@ -110,12 +132,10 @@
 #profile .slogan .eng {
   margin: 0 auto;
   margin-top: 20px;
-  /* margin-right: 155px; */
   text-align: center;
   width: 380px;
   height: 130px;
   font-size: 22px;
-  /* color: #ceadad; */
   color: #fff;
 }
 #profile .slogan .kor {
@@ -123,7 +143,6 @@
   margin-top: 10px;
   width: 400px;
   height: 50px;
-  /* color: #aa0000; */
   font-weight: bolder;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -133,7 +152,6 @@
   margin: 0 auto;
   width: 300px;
   height: 1px;
-  /* background-color: #ffd5d6; */
   background-color: #fff;
 }
 #profile .contact {
@@ -196,11 +214,10 @@
 #project .view {
   width: 700px;
   height: 500px;
-  border-radius: 50%;
+  border-radius: 20%;
   position: absolute;
   top: 225px;
   left: 200px;
-
   background-color: #ffd96a;
 }
 #project .dcrptn {
@@ -209,8 +226,7 @@
   border-radius: 50px;
   position: absolute;
   top: 225px;
-  right: 100px;
-
+  right: 180px;
   background-color: #ffd96a;
 }
 /* ----------------------------------------------------------------- */
@@ -237,13 +253,10 @@
   width: 1500px;
   height: 850px;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.5;
   position: absolute;
   top: 100px;
   left: 200px;
-  /* position: absolute;
-  top: 400px;
-  left: 200px; */
 }
 #contact .contact_me h1 {
   text-align: center;
@@ -283,7 +296,7 @@
 
 input[type="submit"] {
   display: block;
-  padding: 6px 30px;
+  padding: 9px 20px;
   font-size: 14px;
   background-color: #ff2836;
   color: #fff;
