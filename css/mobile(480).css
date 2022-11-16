@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 421px) and (max-width: 480px) {
   #main {
     height: 75vh;
   }
